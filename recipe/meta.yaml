@@ -1,5 +1,5 @@
 {% set name = "skglm" %}
-{% set version = "0.3" %}
+{% set version = "0.3.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/skglm-{{ version }}.tar.gz
-  sha256: 7da04a9664d956b44558e5ccfd0977fd95572ecf4e75db1087093b76e7932f08
+  sha256: 7cd08f2ce99c0b190d8d4daf8137d893f5da2dbaf16aaedcf69a2e3166292d58
 
 build:
   noarch: python
